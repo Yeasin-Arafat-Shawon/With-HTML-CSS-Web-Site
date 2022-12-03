@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    background-color: rgb(154, 243, 154);
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.contact-icon {
+    width: 80%;
+    float: left;
+}
+
+.contact-icon i {
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.contact-icon a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icon {
+    widows: 20%;
+    float: right;
+}
+
+.social-icon i {
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    padding: 10px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.logo img {
+    width: 20%;
+    padding: 20px;
+}
+
+.navbar {
+    width: 55%;
+    float: right;
+}
+
+.navbar a {
+    float: left;
+    font-size: 18px;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    color: blue;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .btn-drop {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    color: navy;
+    padding: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    color: #3390ff;
+}
+
+.dropdown-content a {
+    float: none;
+    color: #3390ff;
+    font-size: 18px;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #dddddd;
+}
+
+.slider img {
+    width: 100%;
+    height: 250px;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.about-text {
+    width: 45%;
+    float: left;
+}
+
+.about-text p {
+    font-size: 16px;
+    font-family: Georgia;
+}
+
+.btn-about {
+    border: none;
+    outline: none;
+    border-color: cadetblue;
+    font-family: inherit;
+    color: blue;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.about-video {
+    width: 45%;
+    float: right;
+
+}
+
+.service {
+    width: 235px;
+    float: left;
+    text-align: center;
+    margin: 19px;
+    border: 1px solid gray;
+}
+
+.service i {
+    font-size: 50px;
+}
+
+.team {
+
+    width: 310px;
+    float: left;
+    margin: 24px;
+    position: relative;
+}
+
+.team img {
+    width: 250px;
+}
+
+.overlay {
+    height: 80px;
+    position: absolute;
+    background-color: black;
+    color: #ffffff;
+    width: 80%;
+    text-align: center;
+    opacity: 0;
+    font-size: 18px;
+    bottom: 0;
+    transition: 1s;
+}
+
+.overlay p {
+    margin-top: -25px;
+}
+
+.team:hover .overlay {
+    opacity: 1;
+}
+
+.map {
+    float: left;
+    width: 45%;
+
+}
+
+.massage {
+    float: right;
+    width: 45%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid wheat;
+}
+
+textarea {
+    width: 100%;
+    padding: 50px 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid wh;
+
+}
+
+input[type=Submit]{
+    border: none;
+    width: 50px 5px;
+    background-color: aqua;
+    border-radius: 5px;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
